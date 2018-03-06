@@ -1,0 +1,37 @@
+{
+	"name": "nanoproxy",
+	"version": "1.0.0",
+	"description": "Simple reverse proxy",
+	"license": "MIT",
+	"repository": "herber/nanoproxy",
+	"author": {
+		"name": "Tobias Herber",
+		"email": "tobihrbr@gmail.com",
+		"url": "tobihrbr.com"
+	},
+	"bin": "cli.js",
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"test": "formatted"
+	},
+	"files": [
+		"cli.js"
+	],
+	"keywords": [
+		"cli",
+		"proxy",
+		"http",
+		"http-proxy",
+		"nano"
+	],
+	"dependencies": {
+		"http-proxy": "^1.16.2",
+		"morgan": "^1.9.0",
+		"sade": "^1.4.0"
+	},
+	"devDependencies": {
+		"formatted": "^1.0.0"
+	}
+}
